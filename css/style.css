@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    height: 100px;
+   width: 100px; 
+   text-align: center;
+}
+
+.navigation {
+    padding: 1%;
+    background-color: #373738;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+    margin-left: auto;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    align-items: center;
+    margin: 20px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.herolmg {
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 5px 10px #888888;
+    text-align: center;
+    background: #F2CED8;
+    padding: 3%
+
+}
+
+.footer {
+    background-color: #373738;  
+    height: 100px;
+}
+
+.button {
+    background-color: #0420BF;
+    color: white;
+}
